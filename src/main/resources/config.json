@@ -1,0 +1,29 @@
+{
+	"debug": true,
+	"domain": "https://www.facebook.com/",
+	"taskDir": "tasks",
+	"WebServer": {
+		"address": "192.168.1.133",
+		"port": 3333,
+		"nThreads": 10
+	},
+	"Selenium": {
+		"userAgents": [
+			"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+		],
+		"driverPath": "chromedriver.exe",
+		"headless": false
+	},
+	"Proxy": {
+		"enabled": true,
+		"file": "proxy.txt",
+		"invalid-file": "invalid-proxy.txt",
+		"siteForCheck": "https://www.bing.com/",
+		"notifyOver": 10
+	},
+	"Accounts": {
+		"file": "accounts.txt",
+		"invalid-file": "invalid-accounts.txt",
+		"notifyOver": 10
+	}
+}
